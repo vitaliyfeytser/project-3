@@ -28,9 +28,3 @@ db.sequelize.sync({ force: true }).then(function() {
     console.log('App listening on PORT ' + PORT);
   });
 });
-
-
-// Start the API server
-app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
-});
