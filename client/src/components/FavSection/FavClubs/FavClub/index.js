@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Time from "./Time";
 import Location from "./Location";
 import Members from "./Members/Member";
+import Book from "./Book";
 
 class FavClub extends Component {
   /*Need to break up further*/
@@ -59,6 +60,7 @@ class FavClub extends Component {
           </div>
           <Members />
         </div>
+        <Book />
       </div>
     );
   }

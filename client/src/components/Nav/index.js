@@ -58,10 +58,10 @@ function Nav() {
               </div>
             </div>
 
-            <a className="nav-item nav-link text-center" href="##mainSection">
+            <a className="nav-item nav-link text-center" href="/">
               HOME
             </a>
-            <a className="nav-item nav-link text-center" href="#weather">
+            <a className="nav-item nav-link text-center" href="/favorite">
               BOOKS
             </a>
             <a className="nav-item nav-link text-center" href="#apod">
