@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import FavSection from "./components/FavSection";
 import Nav from "./components/Nav";
+import BookSection from "./components/BookSection";
+import SignInSection from "./components/SignInSection";
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/" component={FavSection} />
+          <Route exact path="/" component={SignInSection} />
+          <Route exact path="/favorite" component={FavSection} />
+          <Route exact path="/book" component={BookSection} />
         </Switch>
       </div>
     </Router>
