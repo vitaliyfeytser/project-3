@@ -52,6 +52,7 @@ class BookSection extends Component {
                   title="Fav It For Later!"
                 />
               </div>
+
               <div
                 className="card clubDetailsCard"
                 id="book-2-clubs"
@@ -151,4 +152,5 @@ class BookSection extends Component {
     );
   }
 }
+
 export default BookSection;
