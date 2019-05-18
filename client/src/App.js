@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import BookSection from "./components/BookSection";
 import FavSection from "./components/FavSection";
 import Nav from "./components/Nav";
+import BookSection from "./components/BookSection";
+import SignInSection from "./components/SignInSection";
 
 function App() {
   return (
@@ -10,8 +12,11 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/" component={BookSection} />
+
+          <Route exact path="/" component={SignInSection} />
           <Route exact path="/favorite" component={FavSection} />
+          <Route exact path="/book" component={BookSection} />
+
         </Switch>
       </div>
     </Router>
