@@ -3,7 +3,7 @@ const express = require("express");
 // const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 // Requiring our models for syncing
 var db = require('./models');
@@ -25,12 +25,10 @@ app.use(routes);
 // =============================================================
 db.sequelize.sync({ force: true }).then(function() {
   app.listen(PORT, function() {
-    console.log('App listening on PORT ' + PORT);
+    console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
   });
 });
 
 
 // Start the API server
-app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
-});
+
