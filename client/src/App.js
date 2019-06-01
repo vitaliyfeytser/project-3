@@ -12,7 +12,7 @@ function App() {
         <Nav />
         <Switch>
 
-          <Route exact path="/" component={SignInSection} />
+          <Route exact path="/signin" component={SignInSection} />
           <Route exact path="/favorite" component={FavSection} />
           <Route exact path="/book" component={BookSection} />
 

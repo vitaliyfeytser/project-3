@@ -58,21 +58,27 @@ function Nav() {
               </div>
             </div>
 
-            <a className="nav-item nav-link text-center" href="/">
-
-              Sign Up
+            <a
+              className="nav-item nav-link text-center"
+              href="/signin"
+            >Sign Up
             </a>
-            <a className="nav-item nav-link text-center" href="/favorite">
-              Favorite
 
-              HOME
+            <a
+              className="nav-item nav-link text-center"
+              href="/favorite"
+            >Favorite
             </a>
-            <a className="nav-item nav-link text-center" href="/favorite">
+
+            <a
+              className="nav-item nav-link text-center" 
+              href="/favorite">
               BOOKS
 
             </a>
-            <a className="nav-item nav-link text-center" href="/book">
-              Book
+            <a className="nav-item nav-link text-center"
+              href="/book"
+            >Book
             </a>
 
             <button
@@ -84,6 +90,7 @@ function Nav() {
             >
               Readers
             </button>
+
             <button
               type="button"
               id="faves"
@@ -93,6 +100,7 @@ function Nav() {
             >
               Faves
             </button>
+
             <button
               type="button"
               id="clubs"
@@ -102,6 +110,7 @@ function Nav() {
             >
               Clubs
             </button>
+
           </div>
         </div>
       </div>
